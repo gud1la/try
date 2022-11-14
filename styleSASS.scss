@@ -1,0 +1,473 @@
+.header-container {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+
+    .header-row {
+        width: 943.612060546875px;
+        height: 88px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #828282;
+    }
+        .header-row a {
+            text-decoration:none;
+            font-size:18px;
+            color:#828282;
+            font-family: 'Gilroy-Bold';
+        }
+        .header-row a:visited {
+            color:#070707;
+        }
+
+}
+ 
+.header-main-container {
+    .text-container-header-main-container {
+        display: flex;
+        justify-content: center;
+    }
+        .text-header-main-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            width: 943.612060546875px;
+        }
+                .title-text-header-main-container h2 {
+                    font-family: 'Gilroy-Bold';
+                    font-size: 47.3392px;
+                    line-height: 59px;
+                    color: #070707;
+                }
+                .Denis {
+                    margin-bottom: 0px;
+                }
+                .Novik {
+                    margin-top: 0px;
+                }
+                .paragraphs-text-header-main-container p {
+                    font-family: 'Gilroy-Medium';
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #070707;
+                }
+            .links-text-header-main-container {
+                transform: rotate(-90deg);
+                display: flex;
+                flex-direction: row;
+            }
+                    .links-text-header-main-container a {
+                        font-family: 'Gilroy-Bold';
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-decoration:none;
+                    }
+                    .RU {
+                        color: #828282;
+                        margin-right: 2px;
+                    }
+                    .stick {
+                        width: 2px;
+                        height: 14px;
+                        background-color: #828282;
+                        margin-top: 2px;
+                    }
+                    .ENG {
+                        color: #000000;
+                        margin-left: 2px;
+                    }
+        .image-box-header-main-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+                .img-image-box-header-main-container {
+                background-image: url(images/Denis-Novik.png);
+                height: 387px;
+                width: 943.612060546875px;
+                border-radius: 0px;
+                }
+}
+    
+    #about-me {
+        width: 100%;
+        height: 506px;
+        display: flex;
+        justify-content: center;
+        background: #F6F6F6;
+        margin-top: 104px;
+
+        .about-me-container {
+            width: 943.612060546875px;
+            height: 506px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+                .title-about-me h2 {
+                    font-family: 'Gilroy-Bold';
+                    font-size: 34px;
+                    line-height: 42px;
+                    text-align: center;
+                    color: #070707;
+                }
+            .paragraphs-about-me {
+                text-align: center;
+                
+            }
+                .paragraphs-about-me p {
+                    font-family: 'Gilroy-Medium';
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #070707;
+                }
+    }
+    
+    #skills {
+        width: 100%;
+        height: 610px;
+        display: flex;
+        justify-content: center;
+        background: #FFFFFF;
+
+        .skills-container {
+            width: 943.612060546875px;
+            height: 610px;
+            text-align: center;
+        }  
+            .title-skills {
+                margin-bottom: 61px;
+                font-family: 'Gilroy-Bold';
+                font-size: 34px;
+                line-height: 42px;
+                text-align: center;
+                color: #070707;
+            }
+            .paragraphs-skills {
+                font-family: 'Gilroy-Medium';
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                color: #070707;
+            }
+    }
+
+    .apps-skills {
+        width: 100%;
+        height: 400px;
+        margin-top:87px;
+
+        .boxes-skills {
+            width: 943.612060546875px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .photoshop , .illustrator , .after-effects {
+            width: 120px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .photoshop-icon {
+                width: 89.07px;
+                height: 88.41px;
+                
+            }
+                .photoshop-text p {
+                    font-family: 'Gilroy-Bold';
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: center;
+                    color: #828282;
+                }
+            .photoshop-grade {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+                .star-black {
+                    background-image: url(images/star-black.png);
+                    width: 20px;
+                    height: 20px;
+                }
+                .star-gray {
+                    background-image: url(images/star-gray.png);
+                    width: 20px;
+                    height: 20px;
+                }
+            .illustrator-icon {
+                width: 89.07px;
+                height: 88.41px;
+            }
+                .illustrator-text p {
+                    font-family: 'Gilroy-Bold';
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: center;
+                    color: #828282;
+                }
+            .illustrator-grade {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .after-effects-icon {
+                width: 89.07px;
+                height: 88.41px;
+            }
+                .after-effects-text p {
+                    font-family: 'Gilroy-Bold';
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: center;
+                    color: #828282;
+                }
+            .after-effects-grade {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .figma-icon {
+                display: flex;
+                flex-direction: column;
+            }
+                .first-row-figma-icon , .second-row-figma-icon {
+                    display: flex;
+                    justify-content: center;
+                }
+                .third-row-figma-icon {
+                    margin-right:31px;;
+                }
+            .figma-text {
+                font-family: 'Gilroy-Bold';
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #828282;                            
+            }
+            .figma-grade {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 27px;
+            }
+    }
+        
+                
+    .stores-main {
+        background: #F6F6F6;
+        width: 100%;
+        height: 2253px;
+
+        #portfolio {
+            width: 100%;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+        }
+            .portfolio-container {
+                width: 943.612060546875px;
+                height: 620px;
+            }
+                    .text-portfolio h2 {
+                        font-family: 'Gilroy-Bold';
+                        font-size: 34px;
+                        line-height: 42px;
+                        text-align: center;
+                        color: #070707;               
+                    }  
+                .img-portfolio {
+                    background-image: url(/images/portfolio.png);
+                    width: 936.24px;
+                    height: 510px;
+                }
+                .link-portfolio {
+                    display: flex;
+                    justify-content: center;
+                    margin-top:45px;
+                }
+                    .link-portfolio a {
+                        font-family: 'Gilroy-Medium';
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #070707;
+                    }  
+        .reebok {
+            width: 100%;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            margin-top: 106px;
+        }
+            .reebok-container {
+                width: 943.612060546875px;
+                height: 620px;
+            }
+                .img-reebok {
+                    background-image: url(/images/reebok.png);
+                    width: 936.24px;
+                    height: 522px;
+                }  
+                .link-reebok {
+                    display: flex;
+                    justify-content: center;
+                    margin-top:45px;
+                }
+                    .link-reebok a {
+                        font-family: 'Gilroy-Medium';
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #070707;
+                    }
+        .braun {
+            width: 100%;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            margin-top: 106px;
+        }
+            .braun-container {
+                width: 943.612060546875px;
+                height: 620px;
+            }  
+                .img-braun {
+                    background-image: url(/images/braun.png);
+                    width: 936.24px;
+                    height: 522px;
+                }
+                .link-braun {
+                    display: flex;
+                    justify-content: center;
+                }
+                    .link-braun a {
+                        font-family: 'Gilroy-Medium';
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #070707;
+                    }
+    }
+        
+.footer-container {
+    width: 100%;
+    height: 622px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    .header-footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+            #title-footer h2 {
+                font-family: 'Gilroy-Bold';
+                font-size: 34px;
+                line-height: 42px;
+                text-align: center;
+                color: #070707;                
+            } 
+            .paragraph-footer p {
+                font-family: 'Gilroy-Medium';
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                color: #070707;                
+            }
+        .button-footer-container {
+            display: flex;
+            justify-content: center;
+        }
+            .button-footer {
+                font-size: 18px;
+                line-height: 22px;
+                padding: 10px 28px;
+                border-radius: 21px;
+                border: unset;
+                background: #070707;
+            }
+                .button {
+                    font-size: 18px;
+                    line-height: 22px;
+                    padding: 10px 28px;
+                    border-radius: 21px;
+                    border: unset;
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+                .button:hover {
+                    color: #000000;
+                }
+            .button-footer:hover {
+                background-color: #FFFFFF;
+                color: black;
+                border: 1px solid black;
+            }
+    .icon-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100px;
+            margin-top: 87px;
+        }
+        .icon-footer {
+            width: 263px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .paragraph-footer p {
+            font-family: 'Gilroy-Medium';
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #828282;            
+        }
+}
+    
+        /*
+        @font-face {
+            font-family: 'test-font';
+            src: url(../);
+            font-weight: 500;
+            font-style: normal;
+        }
+        */
+
+
+        @font-face {
+            font-family: 'icomoon';
+            src:
+              url('fonts/icon/fonts/icomoon.ttf') format('truetype'),
+              url('fonts/icon/fonts/icomoon.woff?awzsm1') format('woff'),
+              url('fonts/icon/fonts/icomoon.svg?awzsm1#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+          }
+          
+          .icon {
+            /* use !important to prevent issues with browser extensions that change fonts */
+            font-family: 'icomoon' !important;
+            speak: never;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+          
+            /* Better Font Rendering =========== */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          }
+          
+          .icon-ball:before {
+            content: "\e900";
+          }
+
